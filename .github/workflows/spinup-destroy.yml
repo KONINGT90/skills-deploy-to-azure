@@ -6,13 +6,13 @@ on:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
-  AZURE_RESOURCE_GROUP: cd-with-actions
-  AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"East US"'
+  AZURE_RESOURCE_GROUP: olc20251006-06
+  AZURE_APP_PLAN: actions-TK-deployment
+  AZURE_LOCATION: '"West Europe"'
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  AZURE_WEBAPP_NAME: <username>-ttt-app
+  AZURE_WEBAPP_NAME: KONINGT90-ttt-app
 
 jobs:
   setup-up-azure-resources:
